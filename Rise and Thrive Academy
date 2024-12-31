@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rise & Thrive Academy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #004d99;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #003366;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .banner {
+            background: url('https://via.placeholder.com/1920x600') no-repeat center center/cover;
+            color: white;
+            height: 60vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .banner h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+        .services, .careers, .contact {
+            background: #f4f4f4;
+        }
+        .services h2, .careers h2, .contact h2 {
+            margin-bottom: 1em;
+        }
+        footer {
+            background: #004d99;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 1em;
+            padding: 0.5em;
+            width: 80%;
+            max-width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rise & Thrive Academy</h1>
+        <p>Your Partner in College Admissions and Professional Success</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#careers">Careers</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <div id="home" class="banner">
+        <h1>Unlock Your Child's Future</h1>
+        <p>Personalized College Admissions Guidance</p>
+    </div>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Rise & Thrive Academy, we empower students to stand out in the competitive college admissions landscape. Our personalized approach helps uncover unique strengths and guides students toward their dream universities.</p>
+    </section>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Personalized Roadmap for Success</li>
+            <li>Comprehensive College Prep Support</li>
+            <li>Focused Mentorship for Professional Careers</li>
+            <li>Maximizing Scholarships and Financial Aid</li>
+            <li>Developing Unique "Spikes"</li>
+        </ul>
+    </section>
+    <section id="careers" class="careers">
+        <h2>Careers</h2>
+        <p>Join a team passionate about shaping the future of education and student success. Explore career opportunities at Rise & Thrive Academy and be part of our mission.</p>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions? Get in touch with us today!</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>Rise & Thrive Academy | (313)-485-6028 | Kotaradha@gmail.com</p>
+    </footer>
+</body>
+</html>
